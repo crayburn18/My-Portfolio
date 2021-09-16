@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Playfair+Display&display=swap');
+
+body {
+    margin: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: rgb(167, 159, 135);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation: fadeIn 4s;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+    background: red;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+header{
+    height: 100vh;
+}
+
+/* Navbar */
+
+.navbar img {
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+/* Showcase */
+
+.showcase {
+    /* padding-left: 35%; */
+    padding-top: 17%;
+    display: flex;
+    justify-content: center;
+}
+
+.showcase .title {
+    border-bottom: rgb(255, 0, 0) solid 1px;
+    /* padding-bottom: 45px; */
+    padding: 0 20px 45px 20px;
+}
+
+.showcase h2 {
+    font-family: 'Playfair Display';
+    font-size: 40px;
+    color: white;
+    text-align: end;
+    padding: 0;
+    margin: 0;
+}
+
+.showcase h1 {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 50px;
+    color: rgb(255, 0, 0);
+    text-align: end;
+    padding: 0;
+    margin: 0;
+}
+
+.showcase p {
+    color: rgb(204, 186, 186);
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+/* Icons */
+
+.icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.icons a {
+    padding: 15px;
+    color: white;
+}
+
+.icons a:hover {
+    /* transform: scale(1.07); */
+    color: red;
+}
+
+/* Projects */
+
+.projects {
+    /* margin-top: 300px; */
+}
+
+.projects h1 {
+    display: flex;
+    justify-content: center;
+    color: red;
+    font-family: 'PT Serif', sans-serif;
+    font-size: 45px;
+    /* border-bottom: rgb(216, 175, 175) solid 1px; */
+    padding-bottom: 20px; 
+}
+
+.projects div {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.projects .project-box {
+    width: 265px;
+    display: flex;
+    flex-direction: column;
+}
+
+.projects p {
+    color: white;
+    font-family: 'Playfair Display';
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.projects .btn {
+    margin-bottom: 20px;
+    font-family: 'PT Serif', sans-serif;
+}
+
+.projects .btn:hover {
+    transform: scale(.98);
+}
+
+.projects h3 {
+    font-family: 'Playfair Display', sans-serif;
+    text-align: center;
+}
+
+.projects span {
+    color: red;
+    font-family: 'PT Serif', sans-serif;
+}
+
+.projects h2 {
+    color: red;
+    font-family: 'PT Serif', sans-serif;
+    text-align: center;
+}
+
+.projects img {
+    height: 200px;
+    padding: 20px;
+    /* border: white solid 5px; */
+}
+
+.projects a:hover {
+    transform: scale(1.07);
+}
+
+/* Contact */
+
+.contact {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact div {
+    font-size: 25px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.486);
+    font-family: 'PT Serif';
+    margin: 150px 15px 25px 0px;
+}
+
+.contact span {
+    color: red;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer h2 {
+    color: rgba(255, 255, 255, 0.39);
+    font-size: 16px;
+}
+
+/* Tablets & Under */
+
+@media (max-width: 969px) {
+    .contact .mobile {
+        margin-top: 10px;
+    }
+}
+
+/* Mobile */
+
+@media (max-width: 608px) {
+    .showcase h1 span {
+        display: none;
+    }
+
+    .contact .mobile {
+        margin-left: 8px;
+    }
+}
