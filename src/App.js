@@ -4,11 +4,11 @@ import dayPlanner from './images/iconfinder_calendar-book-date-monthly_2203551.p
 import houseHunter from './images/iconfinder_house-home-main-menu-start-building_3643769.png';
 import password from './images/iconfinder_icons_password_1564520.png';
 import trivia from './images/iconfinder_multimedia-19_809511.png';
-
+import resume from './images/Copy of New Lambda School Resume (2).pdf'
 function App() {
   return (
     <>
-          <header>
+    <header>
         {/* <!-- Navbar --> */}
         <nav class="navbar">
             <img src={logo} alt="CR Logo"/>
@@ -30,7 +30,7 @@ function App() {
                 <a href="https://github.com/crayburn18" target="blank"><i class="fab fa-github fa-2x"></i></a>
                 <a href="https://www.linkedin.com/in/connor-rayburn-2bba29167" target="blank"><i
                         class="fab fa-linkedin fa-2x"></i></a>
-                <a href="web-developer-resume.pdf" target="blank"><i class="far fa-folder-open fa-2x"></i></a>
+                <a href={resume} target="blank"><i class="far fa-folder-open fa-2x"></i></a>
             </div>
         </section>
     </header>
@@ -38,13 +38,6 @@ function App() {
     <section class="projects">
         <h1>Projects</h1>
         <div>
-            <div class="project-box">
-                <a href="https://crayburn18.github.io/Calendar-Homework/" target="blank"><img src={dayPlanner} alt=""/></a>
-                <h2>Day Planner</h2>
-                <p>A 9-5pm day planner that alows user to input and store messages for each hour that save locally. Planner shows which hour past, present, future with color representations.</p>
-                <h3><span>Languages: </span>Html-Css-Javascript</h3>
-                <a href="https://github.com/crayburn18/Calendar-Homework" class="btn" target="blank">Github</a>
-            </div>
             <div class="project-box">
                 <a href="https://vast-bayou-08421.herokuapp.com/login" target="blank"><img src={houseHunter} alt=""/></a>
                 <h2>House Hunter</h2>
@@ -66,19 +59,26 @@ function App() {
                 <h3><span>Languages: </span>Html-Css-Javascript</h3>
                 <a href="https://github.com/dazacher/Trivia-With-Friends" class="btn" target="blank">Github</a>
             </div>
+            <div class="project-box">
+                <a href="https://crayburn18.github.io/Calendar-Homework/" target="blank"><img src={dayPlanner} alt=""/></a>
+                <h2>Day Planner</h2>
+                <p>A 9-5pm day planner that alows user to input and store messages for each hour that save locally. Planner shows which hour past, present, future with color representations.</p>
+                <h3><span>Languages: </span>Html-Css-Javascript</h3>
+                <a href="https://github.com/crayburn18/Calendar-Homework" class="btn" target="blank">Github</a>
+            </div>
         </div>
     </section>
 
     {/* <!-- Contact --> */}
 
-    <section class="contact">
+    {/* <section class="contact">
         <div>
             <span> Phone:</span> 480-249-7716 
         </div>
         <div class="mobile">
             <span>Email:</span> connorrayburn.work@gmail.com
         </div>
-    </section>
+    </section> */}
 
     {/* <!-- Footer --> */}
     <footer>
