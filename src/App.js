@@ -5,6 +5,7 @@ import houseHunter from './images/iconfinder_house-home-main-menu-start-building
 import password from './images/iconfinder_icons_password_1564520.png';
 import trivia from './images/iconfinder_multimedia-19_809511.png';
 import resume from './images/Copy of New Lambda School Resume (2).pdf';
+
 function App() {
   return (
     <>
