@@ -40,11 +40,31 @@ header{
 }
 
 /* Navbar */
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+}
 
 .navbar img {
     height: 50px;
     margin-left: 10px;
     margin-top: 10px;
+}
+
+.navbar a {
+    color: white;
+    /* display: flex;
+    justify-content: space-between; */
+    font-family: 'Playfair Display';
+    font-size: 25px;
+    padding-top: 13px;
+    margin-left: 20px;
+}
+
+.navbar a:hover {
+    /* transform: scale(.97); */
+    color: red;
 }
 
 /* Showcase */
