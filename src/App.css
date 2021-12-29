@@ -233,6 +233,18 @@ footer h2 {
     font-size: 16px;
 }
 
+/* Email Form */
+
+.emailForm {
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+}
+
+.emailForm div {
+    padding-bottom: 5%;
+}
+
 /* Tablets & Under */
 
 @media (max-width: 969px) {
