@@ -5,7 +5,7 @@ import dayPlanner from '../images/iconfinder_calendar-book-date-monthly_2203551.
 import houseHunter from '../images/iconfinder_house-home-main-menu-start-building_3643769.png';
 import tech from '../images/976607_appliances_computer_laptop_notebook_portable computer_icon.png';
 import trivia from '../images/iconfinder_multimedia-19_809511.png';
-import resume from '../images/_Web Developer Resume.pdf';
+import resume from '../images/Developer Resume.pdf';
 
 function Home(){
     return(
@@ -41,13 +41,13 @@ function Home(){
         <section class="projects">
             <h1>Projects</h1>
             <div>
-                <div class="project-box">
+                {/* <div class="project-box">
                     <a href="https://vast-bayou-08421.herokuapp.com/login" target="blank"><img src={houseHunter} alt="house"/></a>
                     <h2>House Hunter</h2>
                     <p>Search locations for homes and save your favorites to your authorized account for future use. <span>username: user@admin password: 1234</span></p>
                     <h3><span>Languages: </span>Html-Css-Javascript</h3>
                     <a href="https://github.com/dwashburn8/Project-2" class="btn" target="blank">Github</a>
-                </div>
+                </div> */}
                 <div class="project-box">
                     <a href="https://mystifying-borg-941be4.netlify.app/" target="blank"><img src={tech} alt="computer"/></a>
                     <h2>Use My Tech Stuff</h2>
