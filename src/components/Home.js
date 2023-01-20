@@ -2,7 +2,7 @@ import React from 'react';
 
 import logo from '../images/portfolio-logo.png';
 import dayPlanner from '../images/iconfinder_calendar-book-date-monthly_2203551.png';
-import houseHunter from '../images/iconfinder_house-home-main-menu-start-building_3643769.png';
+// import houseHunter from '../images/iconfinder_house-home-main-menu-start-building_3643769.png';
 import tech from '../images/976607_appliances_computer_laptop_notebook_portable computer_icon.png';
 import trivia from '../images/iconfinder_multimedia-19_809511.png';
 import resume from '../images/Developer Resume.pdf';
